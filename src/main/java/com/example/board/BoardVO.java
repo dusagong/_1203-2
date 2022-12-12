@@ -1,11 +1,9 @@
-package com.example;
+package com.example.board;
 
 import java.util.Date;
 
 public class BoardVO {
     private int seq;
-
-
 
     private String category;
     private String title;
@@ -14,27 +12,19 @@ public class BoardVO {
     private Date regdate;
     private int cnt;
 
+
     public int getSeq() {
         return seq;
     }
     public void setSeq(int seq) {
         this.seq = seq;
     }
-
     public String getCategory() {
         return category;
     }
-
     public void setCategory(String category) {
         this.category = category;
     }
-    //	public String getCategory() {
-//		return category;
-//	}
-//
-//	public void setCategory(String title) {
-//		this.category = category;
-//	}
     public String getTitle() {
         return title;
     }
